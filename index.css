@@ -1,0 +1,36 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+}
+
+.topHeader {
+  color: #eeeeee;
+  background-color: #222831;
+}
+
+.topHeader ul {
+  margin-top: 0;
+  padding: 15px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  font-size: 1.5rem;
+  color: #eeeeee;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.topHeader h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
