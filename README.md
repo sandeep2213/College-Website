@@ -3,7 +3,7 @@
 
 
 ## TODO List:-
-- [] Create a startup Page.
+- [X] Create a startup Page.
 - [] Create a Profile Page for teachers.
 - [] Create a About Us page to provide information about department.
 - [] Create login system for teachers to modify data.
