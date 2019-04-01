@@ -8,13 +8,13 @@
   - create crousel
   - create section of motos
   - Information about college
-- [] Create a Profile Page for teachers.
-- [] Create a About Us page to provide information about department.
-- [] Create login system for teachers to modify data.
-- [] Create an page for attendance insertion and querying.
-- [] Anything i forgot to mention.
+- [ ] Create a Profile Page for teachers.
+- [ ] Create a About Us page to provide information about department.
+- [ ] Create login system for teachers to modify data.
+- [ ] Create an page for attendance insertion and querying.
+- [ ] Anything i forgot to mention.
 
-#### Color considered to be used.
+## Color considered to be used
 
 | Color Hex   | Color Name  |
 | ----------- | ----------- |
