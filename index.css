@@ -16,11 +16,14 @@
 
 :root {
   font-size: 1em;
+  box-sizing: border-box;
 }
 
-* {
+*,
+::after,
+::before {
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
   padding: 0;
 }
 
@@ -165,8 +168,9 @@ body {
 /*General moto styles*/
 
 .moto {
-  background-color: #00adb5;
-  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .moto h4 {
@@ -184,38 +188,65 @@ body {
 
 .article-container {
   overflow: hidden;
-  border: 1px solid red;
 }
 
 .article-content {
-  margin: 20px 1.15%;
   background-color: #393e46;
   float: left;
-  width: 30vw;
-  height: 30vh;
+  margin-left: 0.5em;
+  width: 32%;
+  color: #eeeeee;
+}
+.article-content:first-child {
+  background-color: turquoise;
+  color: #222831;
+}
+.article-content:last-child {
+  background-color: orange;
+  color: #393e46;
 }
 
 /* moto styles ends here*/
 
+/*Second Section style*/
+
+.informative-section {
+  margin: 12px auto;
+  background-color: aquamarine;
+  width: 90%;
+  height: 100px;
+  text-align: center;
+}
+
+/*second section ending*/
+
 /* footer styles starts here*/
 
-/*.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  padding: 1em;
-  color: #eeeeee;
-  background: linear-gradient(to bottom right, #222831 0%, #eeeeee 100%);
-
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6e9fe;
 }
 
 .footer h4 {
-  font-size: 2rem;
+  margin: 12px 20px;
 }
 
-.footer li {
+.footer ul {
+  margin: 12px 20px;
   list-style: none;
-  padding: .2em;
-}*/
-
+}
+.footer-section {
+  border: 1px solid #fff;
+  background-color: #d6e9fe;
+  height: 200px;
+  flex: 1;
+}
 /* footer styles ends here*/
+
+@media only screen and (min-width: 900px) {
+  body {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
