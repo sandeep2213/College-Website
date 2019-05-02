@@ -6,6 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>College of ECE</title>
     <link rel="stylesheet" href="index.css" type="text/css" />
+    <style>
+
+        #subfoot ul{
+            display: inline-block;
+           text-align: center;
+            list-style: none;
+        }
+
+        #subfoot{
+            BAckground-color:#393e46;
+            min-height :12em;
+            display:flex;
+            color:white;
+            text-align:center;
+            padding:20px;
+
+        }
+
+        #subfoot ul li{
+            padding:8px;
+           padding-right:40px;
+            
+
+        }
+        #subfoot h2{
+            display:block;
+            
+            
+        }
+
+
+        #mainfoot{
+            background-color: #222831;
+            height: 10em;
+            margin:0;
+            padding:20px;
+            color:white;
+            
+        }
+        #mainfoot h2 {
+            display: inline-block;
+            padding: 10px 40px;
+        
+        }
+        #mainfloat{
+            float:right;
+            padding: 20px 30px;
+
+        }
+        #mainfoot p {
+            
+            padding: 10px 40px;
+        }
+
+        #mainfloat li{
+            padding:10px;
+            background-color: aliceblue;
+            border:1px solid wheat;
+            border-radius:1em;
+            font-size: 120%;
+            text-align: center;
+            color:black;
+            
+        }
+       
+    </style>
+    
   </head>
   <body>
     <header class="topHeader" id="header">
@@ -62,28 +129,45 @@
         </div>
       </article>
     </main>
+<footer id="subfoot" align="center">
+    <div style="width:50%;">
+        <h2>Menu</h2>
+        <ul>
+        <li>Home</li>
+        <li>Gallery</li>
+        <li>Attendance</li>
+        <li>Facaulty</li>
+        <li>About</li>
+        </ul>
+    </div>
 
-    <footer class="footer" id="footer-ID">
-      <div class="footer-section">
-        <h4>Menu</h4>
+    <div style="width:50%;">
+            <h2>Get Envolved</h2>
         <ul>
-          <li>Home</li>
-          <li>Gallery</li>
-          <li>Attendance</li>
-          <li>Facaulty</li>
-          <li>About</li>
+        <li>Registration</li>
+        <li>Log-in</li>
+        <li>History</li>
+        <li>Our Staff!</li>
+        <li>contact the developers of this site</li>
         </ul>
-      </div>
-      <div class="footer-section"></div>
-      <div class="footer-section">
-        <ul>
-          <li>Registration</li>
-          <li>History</li>
-          <li>Our Staff!</li>
-          <li>contact the developers of this site</li>
-        </ul>
-      </div>
-    </footer>
+    </div>   
+</footer>
+
+<footer id="mainfoot">
+    <h2>
+        Department of Electronics and Communication Skills
+    </h2>
+   
+    <ul  id="mainfloat" style="list-style: none;">
+
+                <li>Contact Us!</li>
+                <p>MB: +91 84276-80001 <br/>
+                Email: director@sbsstc.ac.in</p>
+     </ul>
+      <p>
+                    Copyright © 2019 - All Rights Reserve
+      </p>
+</footer>
     <script src="index.js"></script>
   </body>
 </html>
